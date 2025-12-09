@@ -48,7 +48,7 @@ public class Trader {
                     if (portIndex >= ports.length) {
                         portIndex = 0;
                     }
-                    resources = generateResources(portIndex);
+                    resources = generateResources();
                     break;
                 case "quit":
                     running = false;
